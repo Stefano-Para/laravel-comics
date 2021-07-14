@@ -1,0 +1,37 @@
+header {
+    background-color: white;
+}
+.top-head {
+    height: 20px;
+    background-color: $colorBlueDC;
+    text-align: right;
+    color: white;
+    h6 {
+        height: 20px;
+        line-height: 20px;
+        vertical-align: middle;
+    }
+}
+nav {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+        width: 80px;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        li {
+            margin: 10px 5px 0;
+            padding: 5px 5px 20px;
+            &:hover,
+            &:active {
+                padding: 5px 5px 20px;
+                background-color: $colorBlueDC;
+            }
+        }
+    }
+}
